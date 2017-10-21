@@ -4,8 +4,12 @@ $(document).ready(function(){
  $(".about-me").waypoint(function(direction){
  	if(direction=="down"){
  		$('nav').addClass('sticky');
+ 		$('#scroll').addClass('vanish');
+ 		$('nav a').removeClass('nullify');
  	}else{
  		$('nav').removeClass('sticky');
+ 		$('nav').addClass('nullify');
+ 		$('#scroll').removeClass('vanish');
  	}
  },{
  	offset:'60px;'
@@ -46,7 +50,9 @@ $('a[href*="#"]')
       }
     }
   });
-
+  $('#section02').click(function(){
+  	$('#section02').addClass('nullify');
+  });
    $(".wp-1").waypoint(function(direction){
 	 	$('.wp-1').addClass('animated fadeIn')
 	 },{
@@ -55,37 +61,37 @@ $('a[href*="#"]')
    $(".nano").waypoint(function(direction){
 	 	$('.nano').addClass('animated fadeInLeft')
 	 },{
-	 	offset:'60%'
+	 	offset:'50%'
 	 });
     $(".alien").waypoint(function(direction){
 	 	$('.alien').addClass('animated fadeInRight')
 	 },{
-	 	offset:'60%'
+	 	offset:'50%'
 	 });
      $(".innov").waypoint(function(direction){
 	 	$('.innov').addClass('animated fadeInDown')
 	 },{
-	 	offset:'70%'
+	 	offset:'50%'
 	 });
      $(".bit").waypoint(function(direction){
 	 	$('.bit').addClass('animated fadeInUp')
 	 },{
-	 	offset:'70%'
+	 	offset:'50%'
 	 });
 	 $(".pat").waypoint(function(direction){
 	 	$('.pat').addClass('animated fadeInUp')
 	 },{
-	 	offset:'70%'
+	 	offset:'50%'
 	 });
 	 $(".age").waypoint(function(direction){
 	 	$('.age').addClass('animated fadeInUp')
 	 },{
-	 	offset:'70%'
+	 	offset:'50%'
 	 });
 	 $(".myread").waypoint(function(direction){
 	 	$('.myread').addClass('animated fadeInUp')
 	 },{
-	 	offset:'70%'
+	 	offset:'50%'
 	 });
 
 
