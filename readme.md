@@ -4,7 +4,7 @@ This is my portfolio repository, in which I update the accolades that I accompli
 
 #### Things to update:
 
-* Add a section of hackathons I've participated in.
+* ~Add a section of hackathons I've participated in.~
 * bring in coding videos that I publish often.
 
 
