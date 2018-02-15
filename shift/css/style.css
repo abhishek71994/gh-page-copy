@@ -45,17 +45,9 @@ body{
 	animation-name: moveInLeft;
 	animation-duration: 1s;
 }
-.btn:visited,
-.btn:link{
-	text-transform: uppercase;
-	text-decoration: none;
-	border-radius: 100px;
-	padding: 15px 40px;
-}
-.btn-white{
-	background-color: #fff;
-	color : #777;
-}
+/*------------------
+Animations
+------------------*/
 @keyframes moveInLeft{
 	0%{
 		opacity: 0;
@@ -68,4 +60,45 @@ body{
 		opacity: 1;
 		transform: translate(0);
 	}
+}
+@keyframes moveInTop{
+	0%{
+		opacity: 0;
+		transform: translateY(100px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+/*------------------
+Buttons
+------------------*/
+.btn:visited,
+.btn:link{
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 100px;
+	display: inline-block;
+	padding: 15px 40px;
+	transition: all .2s;
+	position: relative;
+}
+.btn:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+.btn:active{
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.btn-white{
+	background-color: #fff;
+	color : #777;
+}
+.btn-animated{
+	animation-name: moveInTop;
+	animation-duration: 0.9s;
+	animation-delay: 0.8s;
+	animation-fill-mode: backwards;
 }
