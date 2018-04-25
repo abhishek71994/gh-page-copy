@@ -124,13 +124,13 @@ Social links
 }
 .social-links li{
 	display: inline-block;
-	margin-top: 30px;
+	margin-top: 55px;
 	margin-left: 20px;
 	
 }
 .social-links li i{
 	color: #fff;
-	font-size: 70px;
+	font-size: 65px;
 	transition: color 0.2s ease-in;
 }
 .social-links li i:hover{
