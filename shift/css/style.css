@@ -21,7 +21,7 @@ body{
 .main{
 	background-size: cover;
 	background-position: top;
-	background-image: url("../img/background.JPG");
+	background-image: url("../img/background.jpg");
 	height: 95vh;
 
 }
@@ -131,4 +131,8 @@ Social links
 .social-links li i{
 	color: #fff;
 	font-size: 70px;
+	transition: color 0.2s ease-in;
+}
+.social-links li i:hover{
+	color: #55c57a;
 }
