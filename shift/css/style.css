@@ -139,6 +139,76 @@ Social links
 /********************
 Responsive Queries
 ********************/
-@media only screen and (max-width:1200px) {
-    
+
+/*Tablet*/
+@media only screen and (max-width:768px) {
+    .talents{
+    	display: block;
+    	margin: 10px;
+    }
+    .dividers{
+    	display: none;
+    }
+    .social-links li{
+		margin-top: 100px;
+		margin-left: 20px;
+	}
+	.social-links li i{
+		font-size: 340%;
+	}
+}
+/* Large mobiles */
+@media only screen and (max-width:425px) {
+    .heading-primary-main{
+		font-size: 80%;
+		width: 100%;
+		font-weight: 400;
+		letter-spacing: 9px;
+	}
+	.heading-primary{
+		margin-bottom: 30px;
+	}
+	.talents{
+		font-size: 70%;
+		width: 100%;
+		margin-left: -1px;
+	}
+	.btn{
+		font-size: 60%;
+	}
+	.social-links li{
+		margin-top: 100px;
+		margin-left: 20px;
+	}
+	.social-links li i{
+		font-size: 240%;
+	}
+}
+/*Medium mobiles*/
+@media only screen and (max-width:375px) {
+	.social-links li{
+		margin-top: 100px;
+		margin-left: 20px;
+	}
+	.heading-primary{
+		margin-bottom: 40px;
+	}
+	.social-links li i{
+		font-size: 200%;
+	}
+	body{
+		padding: 20px;
+	}
+}
+/*Small mobiles*/
+@media only screen and (max-width:320px) {
+	.heading-primary{
+		margin-bottom: 30px;
+	}
+	.talent{
+		margin-left: -2px;
+	}
+	body{
+		padding: 0px;
+	}
 }
