@@ -45,7 +45,7 @@ body{
 	margin-bottom: 60px;
 }
 .heading-primary-main{
-	font-size: 60px;
+	font-size: 190%;
 	display: block;
 	font-weight: 400;
 	letter-spacing: 9px;
@@ -135,4 +135,10 @@ Social links
 }
 .social-links li i:hover{
 	color: #55c57a;
+}
+/********************
+Responsive Queries
+********************/
+@media only screen and (max-width:1200px) {
+    
 }
