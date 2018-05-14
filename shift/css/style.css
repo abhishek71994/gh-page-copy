@@ -212,3 +212,8 @@ Responsive Queries
 		padding: 0px;
 	}
 }
+@media only screen and (max-height:640px) {
+	.social-links li i{
+		margin-top: -10px!important; 
+	}
+}
