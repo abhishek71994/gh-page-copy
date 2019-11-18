@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap");
+@import "./mixin.scss";
+$roboto-slab: "Roboto", serif;
+$font-color: #dee2de;
+
+* {
+  margin: 0;
+  padding: 0;
+  // outline: 1px solid white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+.home {
+  display: flex;
+  background: linear-gradient(
+    135deg,
+    #1289a7 0%,
+    #1289a7 0%,
+    #38ada9 0%,
+    #78e08f 100%
+  );
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+
+  .heroSection {
+    align-self: center;
+    font-size: 2rem;
+    font-family: $roboto-slab;
+    color: $font-color;
+    .heroHorizontal {
+      display: flex;
+      flex-wrap: wrap;
+      .contentSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+    .herophoto {
+      > img {
+        height: 14rem;
+        border-radius: 50%;
+        margin-right: 1rem;
+        flex: 1;
+      }
+    }
+    .heroIconSection {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3rem;
+      > a {
+        color: $font-color;
+        text-decoration: none;
+        transition: color 0.5s ease;
+        &:visited {
+          color: $font-color;
+        }
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
