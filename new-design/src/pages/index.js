@@ -1,22 +1,18 @@
 import React from 'react'
-import Head from 'next/head'
-import styles from '../assets/scss/home.module.scss'
 import badgeImage from '../assets/images/badgeimg.jpg'
+import styles from '../assets/scss/home.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import Link from 'next/link'
+import SEO from '../components/seo'
 
 // Add all icons to the library so you can use it in your page
 library.add(fas, fab)
 
-const Home = () => (
-  <div>
-    <Head>
-      <title>Home</title>
-    </Head>
-
+const IndexPage = () => (
+  <>
+    <SEO title='Home' />
     <div className={styles.home}>
       <div className={styles.heroSection}>
         <div className={styles.heroHorizontal}>
@@ -49,7 +45,7 @@ const Home = () => (
         </div>
       </div>
     </div>
-  </div>
+  </>
 )
 
-export default Home
+export default IndexPage
