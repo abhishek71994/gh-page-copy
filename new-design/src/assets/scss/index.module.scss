@@ -1,9 +1,12 @@
-@import "variables";
-@import "./font";
-@import "./mixins";
+@import "./variables";
+@import "./mixin";
 
 * {
   margin: 0;
   padding: 0;
   // outline: 1px solid white;
+}
+
+body {
+  font: 16px Rubik, sans-serif;
 }

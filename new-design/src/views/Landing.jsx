@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "../assets/scss/Landing.module.scss"
-import heroImage from "../assets/images/hero-image.jpg"
+import heroImage from "../images/hero-image.jpg"
 
 const Landing = () => {
   return (
@@ -16,10 +16,14 @@ const Landing = () => {
           <div className={styles.heroText}>
             <p>Hello</p>
             <h1>I am Abhishek</h1>
-            <h1>Software Engineer</h1>
-            <p>Building scalable systems is my current obsession.</p>
+            <h1 className={styles.designation}>Software Engineer</h1>
+            <p>Building scalable systems is my current obsession</p>
           </div>
-          <img src={heroImage} className={styles.heroImage} />
+          <img
+            src={heroImage}
+            className={styles.heroImage}
+            alt="hero-abhishek"
+          />
         </div>
       </div>
     </div>
