@@ -1,0 +1,28 @@
+@import './mixin.scss';
+
+.aboutMeContainer {
+  background-color: var(--black-russian);
+  display: flex;
+  padding: 18.125rem 0;
+}
+
+.aboutMeLeftSection {
+  color: #fff;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+
+  .aboutMeContent {
+    margin-top: 1.625rem;
+    width: 34.25rem;
+
+    >p {
+      line-height: 1.5625rem;
+
+      @include for-lg-screen {
+        width: 24.25rem;
+      }
+    }
+  }
+
+}

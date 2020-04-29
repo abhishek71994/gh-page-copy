@@ -1,0 +1,19 @@
+.headerText {
+  >h2 {
+    font-weight: 500;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &:after {
+      content: "";
+      background-color: var(--radical-red);
+      position: absolute;
+      height: 0.3125rem;
+      width: 4rem;
+      bottom: -0.5625rem;
+    }
+  }
+}
