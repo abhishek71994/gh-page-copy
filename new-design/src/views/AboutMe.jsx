@@ -2,6 +2,8 @@ import React from "react"
 
 import HeaderText from "../components/headerText"
 import AboutMeImage from "../images/About-me-image.png"
+import SolidButton from "../components/solidButton"
+import GhostButton from "../components/ghostButton"
 
 import styles from "../assets/scss/aboutMe.module.scss"
 
@@ -13,6 +15,12 @@ const AboutMe = () => {
         <div className={styles.aboutMeContent}>
           <p>{`Melophile. `}</p>
           <p>{`I love tackling problems and getting lost in fixing them, but coming up with a solution before the dealine ;) Everything should make sense, from the colors that you see to the engine that runs in the server to the database management and beyond. Hence, I actively focus more on system design and using the right standards of coding.`}</p>
+          <div className={styles.buttonSection}>
+            <SolidButton
+              className={styles.downloadCVButton}
+            >{`Download CV`}</SolidButton>
+            <GhostButton>{`Email me`}</GhostButton>
+          </div>
         </div>
       </div>
       <div className={styles.aboutMeRightSection}>

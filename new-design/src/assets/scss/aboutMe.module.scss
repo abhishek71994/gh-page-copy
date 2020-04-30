@@ -3,7 +3,8 @@
 .aboutMeContainer {
   background-color: var(--black-russian);
   display: flex;
-  padding: 18.125rem 0;
+  justify-content: space-between;
+  padding: 14.125rem 10%;
 }
 
 .aboutMeLeftSection {
@@ -16,6 +17,14 @@
     margin-top: 1.625rem;
     width: 34.25rem;
 
+    .buttonSection {
+      display: flex;
+    }
+
+    .downloadCVButton {
+      margin-right: 1.5rem;
+    }
+
     >p {
       line-height: 1.5625rem;
 
@@ -24,5 +33,10 @@
       }
     }
   }
+}
 
+.aboutMeRightSection {
+  >img {
+    width: 100%;
+  }
 }
