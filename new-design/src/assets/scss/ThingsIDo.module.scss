@@ -1,0 +1,8 @@
+@import './mixin.scss';
+
+.thingsContainer {
+  background-color: var(--black-russian);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10% 14.125rem 10%;
+}
