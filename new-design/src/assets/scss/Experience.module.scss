@@ -1,0 +1,49 @@
+.experienceContainer {
+  background-color: var(--black-russian);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10% 14.125rem 10%;
+}
+
+.experienceContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 6rem;
+}
+
+.experienceCard {
+  width: 17.8125rem;
+  height: 24rem;
+  border-radius: 1.5625rem;
+  padding: 0 1rem;
+  background: rgba(37, 37, 37, 0.5);
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .date {
+    font-weight: 500;
+    font-size: 1.6875rem;
+    color: #FFFFFF;
+  }
+
+  .designation {
+    margin: 2rem 0;
+    font-weight: 500;
+    font-size: 2.8125rem;
+    color: #FFFFFF;
+  }
+
+  .company {
+    font-weight: 500;
+    font-size: 2.25rem;
+    color: #FFFFFF;
+  }
+}
+
+.active {
+  background: rgba(237, 69, 104, 0.4);
+}
