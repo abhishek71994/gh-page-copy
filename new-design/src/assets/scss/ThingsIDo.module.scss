@@ -3,6 +3,43 @@
 .thingsContainer {
   background-color: var(--black-russian);
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   padding: 0 10% 14.125rem 10%;
+}
+
+.cardContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 5rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.webDesignCard {
+  z-index: 2;
+  margin: 1rem 1rem;
+
+  &Content {
+    max-width: 27.8125rem;
+    padding: 2rem 0 0 2rem;
+
+    >h2 {
+      font-weight: 500;
+      font-size: 1.6875rem;
+      line-height: 2rem;
+      text-transform: uppercase;
+    }
+
+
+    >p {
+      font-weight: 500;
+      margin-top: 1rem;
+      width: 66%;
+      font-size: 1.125rem;
+      line-height: 1.3125rem;
+      color: rgba(255, 255, 255, 0.81);
+    }
+  }
+
 }

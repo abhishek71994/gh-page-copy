@@ -1,0 +1,16 @@
+.cardContainer {
+  min-height: 14.9375rem;
+  border-radius: 1.125rem;
+  position: relative;
+  z-index: 6;
+  color: #FFFFFF;
+}
+
+.cardImage {
+  position: absolute;
+  bottom: 0;
+  width: 45%;
+  height: 56%;
+  z-index: -4;
+  right: 0;
+}
