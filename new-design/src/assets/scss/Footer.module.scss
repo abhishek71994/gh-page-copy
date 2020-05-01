@@ -1,0 +1,18 @@
+.footerContainer {
+  padding: 0 10%;
+  background: linear-gradient(180deg, #06082E 37.18%, #ED4568 100%);
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 17.125rem;
+}
+
+.icons {
+  >a {
+    margin: 1rem;
+  }
+}
