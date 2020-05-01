@@ -5,6 +5,8 @@ import AboutMeImage from "../images/About-me-image.png"
 import SolidButton from "../components/solidButton"
 import GhostButton from "../components/ghostButton"
 
+import resume from "../../public/resume.pdf"
+
 import styles from "../assets/scss/aboutMe.module.scss"
 
 const AboutMe = () => {
@@ -16,10 +18,14 @@ const AboutMe = () => {
           <p>{`Melophile. `}</p>
           <p>{`I love tackling problems and getting lost in fixing them, but coming up with a solution before the dealine ;) Everything should make sense, from the colors that you see to the engine that runs in the server to the database management and beyond. Hence, I actively focus more on system design and using the right standards of coding.`}</p>
           <div className={styles.buttonSection}>
-            <SolidButton
-              className={styles.downloadCVButton}
-            >{`Download CV`}</SolidButton>
-            <GhostButton>{`Email me`}</GhostButton>
+            <a href={resume} target="blank">
+              <SolidButton className={styles.downloadCVButton}>
+                {`Download CV`}
+              </SolidButton>
+            </a>
+            <a href="mailto:abhishek71994@gmail.com">
+              <GhostButton>{`Email me`}</GhostButton>
+            </a>
           </div>
         </div>
       </div>

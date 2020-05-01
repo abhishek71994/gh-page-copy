@@ -8,7 +8,7 @@ const LatestWork = () => {
   return (
     <div className={styles.latestContainer}>
       <HeaderText>{`Latest work`}</HeaderText>
-      <p>{`The projects that my skillset allows me to execute into the real world`}</p>
+      <p>{`The projects that my skillset allows me to execute.`}</p>
       <div className={styles.workContainer}>
         <a
           className={styles.saveOurFave}

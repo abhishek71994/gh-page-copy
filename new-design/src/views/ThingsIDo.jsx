@@ -20,7 +20,7 @@ const ThingsIDo = () => {
         >
           <div className={styles.webDesignCardContent}>
             <h2>web design</h2>
-            <p>{`I provide pixel perfect responsive design, with a codebase that is scalable and catering to expectation of the stakeholders`}</p>
+            <p>{`I provide pixel perfect responsive design, with a codebase that is scalable and catering to expectation of the stakeholders.`}</p>
           </div>
         </GradientCard>
         <GradientCard
@@ -31,7 +31,7 @@ const ThingsIDo = () => {
         >
           <div className={styles.webDesignCardContent}>
             <h2>BACKEND API</h2>
-            <p>{`Building services be it something new like GraphQL or that of relational database, I can switch between languages and craft backend APIs`}</p>
+            <p>{`Building services be it something new like GraphQL or that of relational database, I can switch between languages and craft backend APIs.`}</p>
           </div>
         </GradientCard>
       </div>

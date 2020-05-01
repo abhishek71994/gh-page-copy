@@ -11,15 +11,17 @@ const Footer = () => {
   return (
     <div className={styles.footerContainer}>
       <div className={styles.footerContent}>
-        <GhostButton>{`Email me`}</GhostButton>
+        <a href="mailto:abhishek71994@gmail.com">
+          <GhostButton>{`Email me`}</GhostButton>
+        </a>
         <div className={styles.icons}>
-          <a>
+          <a href="https://github.com/abhishek71994">
             <img src={github} />
           </a>
-          <a>
+          <a href="https://www.linkedin.com/in/abhi-hk95/">
             <img src={linkedIn} />
           </a>
-          <a>
+          <a href="https://twitter.com/abhi_hk95">
             <img src={twitter} />
           </a>
         </div>

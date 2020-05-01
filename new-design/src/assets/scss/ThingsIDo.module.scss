@@ -24,6 +24,11 @@
     max-width: 27.8125rem;
     padding: 2rem 0 0 2rem;
 
+    @include for-mobile {
+      max-width: 100%;
+      padding: 2rem;
+    }
+
     >h2 {
       font-weight: 500;
       font-size: 1.6875rem;
@@ -39,6 +44,10 @@
       font-size: 1.125rem;
       line-height: 1.3125rem;
       color: rgba(255, 255, 255, 0.81);
+
+      @include for-mobile {
+        width: 100%;
+      }
     }
   }
 

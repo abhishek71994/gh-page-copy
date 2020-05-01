@@ -13,22 +13,34 @@
   display: flex;
   flex-direction: column;
 
+
   .aboutMeContent {
     margin-top: 1.625rem;
-    width: 34.25rem;
+
+
+    @include for-desktop {
+      width: 34.25rem;
+    }
 
     .buttonSection {
       display: flex;
+      flex-wrap: wrap;
+
+      @include for-mobile {
+        justify-content: center;
+      }
     }
 
     .downloadCVButton {
-      margin-right: 1.5rem;
+      @include for-desktop {
+        margin-right: 1.5rem;
+      }
     }
 
     >p {
       line-height: 1.5625rem;
 
-      @include for-lg-screen {
+      @include for-desktop {
         width: 24.25rem;
       }
     }
@@ -36,6 +48,10 @@
 }
 
 .aboutMeRightSection {
+  @include for-mobile {
+    display: none;
+  }
+
   >img {
     width: 100%;
   }

@@ -11,7 +11,7 @@ import "../assets/scss/index.module.scss"
 
 const IndexPage = () => (
   <>
-    <SEO title='Home' />
+    <SEO title='Abhishek Prasad' />
     <LandingView />
     <AboutMe />
     <ThingsIDo />
