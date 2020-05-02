@@ -9,7 +9,7 @@ import styles from "../assets/scss/ThingsIDo.module.scss"
 
 const ThingsIDo = () => {
   return (
-    <div className={styles.thingsContainer}>
+    <div className={styles.thingsContainer} id={"thing"}>
       <HeaderText>{`Things I do`}</HeaderText>
       <div className={styles.cardContainer}>
         <GradientCard

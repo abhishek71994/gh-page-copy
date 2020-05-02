@@ -6,7 +6,7 @@ import HeaderText from "../components/headerText"
 import styles from "../assets/scss/Experience.module.scss"
 const LatestWork = () => {
   return (
-    <div className={styles.experienceContainer}>
+    <div className={styles.experienceContainer} id={"exp"}>
       <HeaderText>{`Experience`}</HeaderText>
       <div className={styles.experienceContent}>
         <div className={classnames(styles.experienceCard, styles.active)}>

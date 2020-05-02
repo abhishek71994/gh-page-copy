@@ -15,8 +15,8 @@ const AboutMe = () => {
       <div className={styles.aboutMeLeftSection}>
         <HeaderText>{`About me`}</HeaderText>
         <div className={styles.aboutMeContent}>
-          <p>{`Melophile. `}</p>
-          <p>{`I love tackling problems and getting lost in fixing them, but coming up with a solution before the dealine ;) Everything should make sense, from the colors that you see to the engine that runs in the server to the database management and beyond. Hence, I actively focus more on system design and using the right standards of coding.`}</p>
+          <p>{`Melophile.`}</p>
+          <p>{`I am a software Engineer, based in Malaysia at the moment. I love crafting engineering solutions, while listening to podcasts or music. Everything should make sense, from the colors that you see to the engine that runs in the server to the database management and beyond. Hence, I actively focus more on system design and using the right standards of coding.`}</p>
           <div className={styles.buttonSection}>
             <a href={resume} target="blank">
               <SolidButton className={styles.downloadCVButton}>
