@@ -1,0 +1,18 @@
+.buttonContainer {
+  margin-top: 1rem;
+
+  >button {
+    border: 3px solid #FFFFFF;
+    background-color: transparent;
+    padding: .55rem 1rem;
+    border-radius: 6px;
+    min-width: 10.4913rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #FFFFFF;
+  }
+}
