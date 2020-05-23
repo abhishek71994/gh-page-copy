@@ -26,6 +26,10 @@
       display: flex;
       flex-wrap: wrap;
 
+      >a{
+        text-decoration: none;
+      }
+
       @include for-mobile {
         justify-content: center;
       }
