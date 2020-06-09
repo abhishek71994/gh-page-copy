@@ -6,8 +6,13 @@ import ThingsIDo from "../views/ThingsIDo"
 import LatestWork from "../views/LatestWork"
 import Experience from "../views/Experience"
 import Footer from "../views/Footer"
+import ReactGA from "react-ga";
 
 import "../assets/scss/index.module.scss"
+
+const initGA = (trackingID) => {           
+  ReactGA.initialize(trackingID); 
+}
 
 const IndexPage = () => {
   const scrollToThing = () => {
@@ -25,6 +30,7 @@ const IndexPage = () => {
       .getElementById("exp")
       .scrollIntoView({ block: "end", behavior: "smooth" })
   }
+  initGA(`UA-168898528-1`);
   return (
     <>
       <SEO title='Abhishek Prasad' />
