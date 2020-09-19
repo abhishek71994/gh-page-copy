@@ -1,0 +1,23 @@
+@mixin for-desktop {
+  @media (orientation: landscape) and (min-device-aspect-ratio: 1/1) {
+    @content;
+  }
+}
+
+@mixin for-mobile {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+
+@mixin for-lg-screen {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin for-xl-screen {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}

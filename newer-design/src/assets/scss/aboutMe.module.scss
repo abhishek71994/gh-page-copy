@@ -1,0 +1,62 @@
+@import './mixin.scss';
+
+.aboutMeContainer {
+  background-color: var(--black-russian);
+  display: flex;
+  justify-content: space-between;
+  padding: 14.125rem 10%;
+}
+
+.aboutMeLeftSection {
+  color: #fff;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+
+
+  .aboutMeContent {
+    margin-top: 1.625rem;
+
+
+    @include for-desktop {
+      width: 34.25rem;
+    }
+
+    .buttonSection {
+      display: flex;
+      flex-wrap: wrap;
+
+      >a{
+        text-decoration: none;
+      }
+
+      @include for-mobile {
+        justify-content: center;
+      }
+    }
+
+    .downloadCVButton {
+      @include for-desktop {
+        margin-right: 1.5rem;
+      }
+    }
+
+    >p {
+      line-height: 1.5625rem;
+
+      @include for-desktop {
+        width: 24.25rem;
+      }
+    }
+  }
+}
+
+.aboutMeRightSection {
+  @include for-mobile {
+    display: none;
+  }
+
+  >img {
+    width: 100%;
+  }
+}
