@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Abhishek Prasad`,
-    description: `Problem solver, software engineer at Fave Malaysia, full stack developer, admin at mentorfix`,
+    description: `Solution oriented, love engineering and collaborating with people, full stack software engineer at Carsome, Malaysia || Ex-Fave`,
     author: `@abhishek71994`,
   },
   plugins: [
