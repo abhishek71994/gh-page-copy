@@ -8,8 +8,8 @@ const Index = () => {
       <div className={styles.header}>
         <img src={logo} alt="" />
         <div className={styles.headerRight}>
-          <a href="#">Blogs</a>
-          <a href="#">Talk to me</a>
+          <a target="_blank" href="https://medium.com/@abhishek71994">Blogs</a>
+          <a target="_blank" href="https://calendly.com/abhi_hk95/15min">Talk to me</a>
         </div>
       </div>
       <div className={styles.Landing}>
@@ -18,7 +18,7 @@ const Index = () => {
         <p>Sometimes I get imposter's syndrome 🙁</p>
         <p>I like coffee, books and music ☕📚🎸</p>
         <p>Buy me coffee and I'll pair program with you 😄</p>
-        <button className={styles.ghostButton}>Buy coffee ☕</button>
+        <a target="_blank" href="https://calendly.com/abhi_hk95/15min"><button className={styles.ghostButton}>Buy coffee ☕</button></a>
       </div>
     </div>
   )
